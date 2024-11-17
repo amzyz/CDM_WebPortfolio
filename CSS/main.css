@@ -1,0 +1,126 @@
+/* reset */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    background-color: #413C58; 
+    padding: 20px 0;
+}
+
+/* Styling for navbar items */
+.navbar li {
+    margin: 0 20px; 
+}
+
+/* Styling for navigation bar links */
+.navbar a {
+    text-decoration: none;
+    color: white; 
+    font-size: 20px;
+    transition: color 0.3s ease; 
+}
+
+/* Hover effect */
+.navbar a:hover {
+    color: #A3C4BC; 
+}
+
+/* Header */
+.main-header {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.main-header h1 {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 5rem;
+    margin-bottom: 15px;
+    color: #413C58;
+}
+.main-header h2 {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.main-header p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Projects Page */
+.projects {
+    padding: 40px 20px;
+    text-align: center;
+
+}
+
+.projects h1 {
+    font-family: "Raleway";
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #413C58;
+}
+
+
+.projects h2 {
+    font-family: "Raleway";
+    font-size: 2rem;
+    color: #333;
+}
+
+.projects h3 {
+    font-family: "Arial";
+    font-size: 2rem;
+    color: #333;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.projects p {
+    font-family: "Arial";
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+/* ABOUT */
+.container_12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+  }
+  
+  /* Left Column: Image */
+  .grid_4 {
+    width: 30%; /* Adjust width of the image column */
+  }
+  
+  /* Right Column: Text/Content */
+  .grid_8 {
+    width: 30%; 
+    font-family: "Raleway";
+  }
