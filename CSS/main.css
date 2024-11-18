@@ -66,6 +66,10 @@ body, ul, li {
     margin: 0 auto;
 }
 
+.res-image {
+  align-content: center;
+}
+
 /* Projects Page */
 .projects {
     padding: 40px 20px;
