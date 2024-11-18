@@ -94,7 +94,7 @@ body, ul, li {
 }
 
 .project-image {
-    max-width: 100%;
+    width: 500px;
     height: auto;
     margin-top: 15px;
 }
